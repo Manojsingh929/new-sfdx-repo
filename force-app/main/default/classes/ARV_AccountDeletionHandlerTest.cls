@@ -6,7 +6,7 @@ public class ARV_AccountDeletionHandlerTest {
     static void testHandleBeforeDeleteWithActiveOpportunities() {
         // Create test account
         Account testAccount = new Account(
-            Name = 'Test Account',
+            Name = 'Test Account from test',
             Phone = '123-456-7890'
         );
         insert testAccount;
