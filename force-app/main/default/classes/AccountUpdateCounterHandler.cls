@@ -1,5 +1,6 @@
 public with sharing class AccountUpdateCounterHandler {
     // recursion guard so we only perform one extra update per transaction other change
+    //Modified class comment
     private static Boolean hasRun = false;
 
     public static void handleAfterUpdate(List<Account> newList, Map<Id, Account> oldMap) {
