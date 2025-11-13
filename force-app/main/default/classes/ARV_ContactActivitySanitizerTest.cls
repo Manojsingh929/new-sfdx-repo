@@ -29,7 +29,7 @@ private class ARV_ContactActivitySanitizerTest {
 
     @IsTest
     static void testInactivateActiveContactsWithBlankFirstName_noDmlWhenNoneNeedChange() {
-        // All records either have FirstName set or are already inactive
+        // modified comment All records either have FirstName set or are already inactive
         Contact c1 = new Contact(LastName = 'L1', FirstName = 'Jane', DoNotCall = false);
         Contact c2 = new Contact(LastName = 'L2', FirstName = '', DoNotCall = true);
         insert new List<Contact>{ c1, c2 };
