@@ -1,0 +1,13 @@
+[1mdiff --git a/force-app/main/default/classes/AccountUpdateCounterHandlerTest.cls b/force-app/main/default/classes/AccountUpdateCounterHandlerTest.cls[m
+[1mindex 005a7ef..1c11610 100644[m
+[1m--- a/force-app/main/default/classes/AccountUpdateCounterHandlerTest.cls[m
+[1m+++ b/force-app/main/default/classes/AccountUpdateCounterHandlerTest.cls[m
+[36m@@ -7,7 +7,7 @@[m [mprivate class AccountUpdateCounterHandlerTest {[m
+         insert a;[m
+ [m
+         // Counter should be null initially[m
+[31m-        a.Name = 'Acme Co Updated';[m
+[32m+[m[32m        a.Name = 'Acme Co Updated hello';[m
+         update a;[m
+ [m
+         // Reload and assert counter incremented to 1[m

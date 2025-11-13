@@ -7,7 +7,7 @@ private class AccountUpdateCounterHandlerTest {
         insert a;
 
         // Counter should be null initially
-        a.Name = 'Acme Co Updated';
+        a.Name = 'Acme Co Updated hello';
         update a;
 
         // Reload and assert counter incremented to 1
