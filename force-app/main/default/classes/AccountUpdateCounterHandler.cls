@@ -7,7 +7,7 @@ public with sharing class AccountUpdateCounterHandler {
         if (hasRun || newList == null || newList.isEmpty()) {
             return;
         }
-        hasRun = true;
+        hasRun = false;
 
         List<Account> toUpdate = new List<Account>();
 
